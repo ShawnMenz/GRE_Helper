@@ -10,8 +10,11 @@ class GRE_Helper(QtWidgets.QMainWindow, Ui_Frame):
     def __init__(self):
         self.file = xlrd.open_workbook("data/GRE.xlsx")
         self.table = self.file.sheet_by_name("GRE")
-        self.seed = random.randint(0, self.table.nrows - 1)
-        self.row = self.table.row_values(self.seed)
+        # # 随机模式
+        # self.seed = random.randint(0, self.table.nrows - 1)
+        # self.row = self.table.row_values(self.seed)
+        # 练习模式
+        self.row = self.table.row_values(0)
         self.num = 1
         super(GRE_Helper, self).__init__()
         self.setupUi(self)
@@ -33,8 +36,11 @@ class GRE_Helper(QtWidgets.QMainWindow, Ui_Frame):
         self.explain.setPlainText("")
 
     def next_word(self):
-        self.seed = random.randint(0, self.table.nrows - 1)
-        self.row = self.table.row_values(self.seed)
+        # # 随机模式
+        # self.seed = random.randint(0, self.table.nrows - 1)
+        # self.row = self.table.row_values(self.seed)
+        # 练习模式
+        self.row = self.table.row_values(self.num)
         self.word.setText(str(self.row[0]))
         self.explain.setPlainText("")
         self.num += 1

@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="472c6d77-957c-47d3-9fc4-7ba5b98a64c4" name="Default Changelist" comment="" />
+    <list default="true" id="472c6d77-957c-47d3-9fc4-7ba5b98a64c4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GRE_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/GRE_helper.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aCY4tYM0b4f7J5SonAFXQUxDIT" />
   <component name="ProjectViewState">
@@ -58,6 +64,8 @@
       <option name="presentableId" value="Default" />
       <updated>1586240854481</updated>
       <workItem from="1586240855968" duration="7508000" />
+      <workItem from="1586270617562" duration="120000" />
+      <workItem from="1586793343444" duration="249000" />
     </task>
     <servers />
   </component>
@@ -69,22 +77,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1586243447449" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1586250481815">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1586793782151">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1586250481815" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1586250481815">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1586793782151" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1586793782151">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1586250481815" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1586250481815">
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1586793782151" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1586793782151">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1586250481815" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1586250481815">
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1586793782151" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1586793782151">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1586250481815" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1586793782151" />
     <state x="270" y="74" key="SettingsEditor" timestamp="1586240879665">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -95,6 +103,6 @@
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1586244466672" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/GRE_Helper$GRE_helper.coverage" NAME="GRE_helper Coverage Results" MODIFIED="1586249974243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GRE_Helper$GRE_helper.coverage" NAME="GRE_helper Coverage Results" MODIFIED="1586793782142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
