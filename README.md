@@ -24,3 +24,4 @@
 * 仍然不支持导入词库
 * 疯狂随机模式（Random Evil Mode）和练习模式（Practice Mode）界面分开，不再需要更改代码，点击按钮更换界面。之后可能会做成菜单更换。
 * 练习模式（Practice Mode）有顺序（Order）和乱序（Random）两种模式，可以设置范围。
+* **Win 10环境下可以点击start.bat文件来运行程序**
