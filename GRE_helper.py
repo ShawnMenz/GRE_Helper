@@ -70,6 +70,7 @@ class PracticeMode(QtWidgets.QMainWindow, Ui_MainWindow):
         self.row = []
         self.num = 1
         self.mode = 0
+        self.item = 0
         super(PracticeMode, self).__init__()
         self.setupUi(self)
         # buttons
@@ -79,8 +80,6 @@ class PracticeMode(QtWidgets.QMainWindow, Ui_MainWindow):
         self.shiftButton.clicked.connect(lambda: self.change_mode())
         self.changeButton.clicked.connect(lambda: self.change_order())
         self.confirmButton.clicked.connect(lambda: self.confirm())
-        # for count num orderly
-        self.item = self.fromBox.value()
         # init textarea
         self.word.setText("")
         self.count.setText("")
@@ -89,6 +88,8 @@ class PracticeMode(QtWidgets.QMainWindow, Ui_MainWindow):
     def confirm(self):
         from_point = self.fromBox.value()
         to_point = self.toBox.value()
+        # for count num orderly
+        self.item = self.fromBox.value()
         # start point is smaller than the end one
         if from_point < to_point:
             # Random mode
